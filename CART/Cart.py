@@ -2,7 +2,7 @@
 Created on Feb 4, 2011
 Tree-Based Regression Methods
 @author: Peter Harrington
-@reference: Machine learning in action
+@reference: Machine Learning in Action
 '''
 from numpy import *
 
