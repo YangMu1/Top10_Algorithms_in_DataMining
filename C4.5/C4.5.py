@@ -88,11 +88,6 @@ def createTree(dataSet, labels):
     return myTree
 
 def classify(inputTree, featLabels, testVec):
-    """
-    输入：决策树，分类标签，测试数据
-    输出：决策结果
-    描述：跑决策树
-    """
     firstStr = list(inputTree.keys())[0]
     secondDict = inputTree[firstStr]
     featIndex = featLabels.index(firstStr)
